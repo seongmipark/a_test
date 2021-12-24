@@ -9,4 +9,9 @@ public class BoardDAO {
 		System.out.println("삭제하였습니다.");
 		return 1;
 	}
+	
+	public int update() {
+		System.out.println("게시물을 수정하였습니다.");
+		return 1;
+	}
 }
